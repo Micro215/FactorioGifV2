@@ -7,7 +7,7 @@ def main():
 
     resize = input("Need resize? [Y/N]: ")
     if resize.lower() == "y" or resize.lower() == "yes":
-        resize = int(input("Enter new height (MAX=2161): "))
+        resize = int(input("Enter new height (MAX=216): "))
     else: resize = None
 
     fps = input("Need change fps? [Y/N]: ")
