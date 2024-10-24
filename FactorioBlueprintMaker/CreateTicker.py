@@ -9,8 +9,8 @@ def createTicker(fps: int, frame_count: int, entity_number: int, width: int) -> 
                 "entity_number": entity_number + 1,
                 "name": "constant-combinator",
                 "position": {
-                    "x": -126.5 + width + 131 + 3,
-                    "y": -374.5 + 377 - 2
+                    "x": -126.5 + width + 131 + 4,
+                    "y": -374.5 + 377
                 },
                 "direction": 8,
                 "control_behavior": {
@@ -70,8 +70,8 @@ def createTicker(fps: int, frame_count: int, entity_number: int, width: int) -> 
                 "entity_number": entity_number + 2,
                 "name": "display-panel",
                 "position": {
-                    "x": -126.5 + width + 131 + 3,
-                    "y": -375.5 + 377 - 2
+                    "x": -126.5 + width + 131 + 4,
+                    "y": -375.5 + 377
                 },
                 "text": "start",
                 "icon": {
@@ -83,8 +83,8 @@ def createTicker(fps: int, frame_count: int, entity_number: int, width: int) -> 
                 "entity_number": entity_number + 3,
                 "name": "constant-combinator",
                 "position": {
-                    "x": -125.5 + width + 131 + 3,
-                    "y": -374.5 + 377 - 2
+                    "x": -125.5 + width + 131 + 4,
+                    "y": -374.5 + 377
                 },
                 "direction": 8,
                 "control_behavior": {
@@ -144,8 +144,8 @@ def createTicker(fps: int, frame_count: int, entity_number: int, width: int) -> 
                 "entity_number": entity_number + 4,
                 "name": "display-panel",
                 "position": {
-                    "x": -125.5 + width + 131 + 3,
-                    "y": -375.5 + 377 - 2
+                    "x": -125.5 + width + 131 + 4,
+                    "y": -375.5 + 377
                 },
                 "text": "stop",
                 "icon": {
